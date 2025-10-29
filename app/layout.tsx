@@ -22,9 +22,8 @@ const _geistMono = V0_Font_Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "v0 App",
-  description: "Created with v0",
-  generator: "v0.app",
+  title: "Link Short",
+  description: "Shorten your links instantly",
 };
 
 export default function RootLayout({

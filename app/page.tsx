@@ -22,20 +22,12 @@ export default function Home() {
 
         <div className="relative max-w-6xl mx-auto px-6 py-20 md:py-32">
           <div className="max-w-2xl">
-            <div className="flex items-center gap-2 mb-6">
-              <Link2 className="w-5 h-5 text-primary" />
-              <span className="text-sm font-medium text-primary">
-                URL Shortener
-              </span>
-            </div>
-
             <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
               Shorten your links instantly
             </h1>
 
             <p className="text-lg text-muted-foreground mb-12 max-w-xl leading-relaxed">
-              Create short, memorable links that are easy to share. Track clicks
-              and manage your URLs all in one place.
+              Create short, memorable links that are easy to share.
             </p>
 
             {/* Form Section */}
